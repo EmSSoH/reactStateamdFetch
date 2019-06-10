@@ -1,0 +1,16 @@
+General part.
+
+a single page aplication is an aplication where only a single HTML page is used, 
+and is dynamically updated via scipts when the user intereacts with the page.
+
+these scripts are run client side which in turn frees up server side recources when constant calls is not coming in to the server
+from every user on the site. making it a popular choice for development of modern web aplications.
+
+
+you can use use props to pass data on to components and use states to then reload the scripts to include the new data that has been passed on.
+
+with data that has been passed on or maybe fetched javascript array method like map, filter and reduce can be used to take the information
+and dynamicly structure it in table, ul's etc. in the case of and array of information it can be mapped into a new array but where each point of data
+has got the html surounding it to put it into a table.
+
+
