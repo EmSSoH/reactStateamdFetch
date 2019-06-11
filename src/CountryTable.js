@@ -4,17 +4,28 @@ import CountryFactory from "./countryFactory";
 class CountryTable extends Component {
   constructor(){
     super();
+    
   }
+
 
   render() {
     return (
       <table className="table">
         <thead>
-          <tr><th>This is the header. Replace with a row generated from the Labels endpoint</th></tr>
+          <tr>
+            {
+              CountryFactory.getLabels.forEach(element => { <th> {element} </th> })
+            }
+          </tr>
         </thead>
         
         <tbody>
-         <tr>This is the body. Replace with rows generated from the countries endpoint</tr>
+         <tr>
+           {
+             CountryFactory.getCountries.forEach(element => {})
+
+           }
+         </tr>
         </tbody>
       </table>
     );
